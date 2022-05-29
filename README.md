@@ -25,11 +25,9 @@ RegisterNumber :  212220230004
 */
 ```
 ```python
-
 import numpy as np
 from keras.models import Sequential
 from keras.layers.core import Dense
-
 training_data=np.array([[0,0],[0,1],[1,0],[1,1]],"float32")
 target_data=np.array([[0],[1],[1],[0]],"float32")
 
